@@ -50,7 +50,8 @@ public class MedicionesTemperaturas
         System.out.println(dia + "/" + mes);
         int pos = 6;
         for (Integer temperatura: registros) {
-            System.out.print(pos + "--> ");
+            System.out.print( pos + "am" + ": temperatura");
+            System.out.print("-->");
             System.out.println(temperatura + "ºC");
             pos = pos + 3;
         }
