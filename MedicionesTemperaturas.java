@@ -2,8 +2,7 @@ import java.util.ArrayList;
 
 /**
  * Registros de temperaturas diarios de una estacion meteorológica
- * 123
- */
+ */ 
 public class MedicionesTemperaturas
 {
     /**
@@ -49,11 +48,11 @@ public class MedicionesTemperaturas
      */
     public void imprimirTemperaturas() {
         System.out.println(dia + "/" + mes);
-        int pos = 0;
+        int pos = 6;
         for (Integer temperatura: registros) {
-            System.out.print(pos + ": ");
-            System.out.println(temperatura + "C");
-            pos = pos + 1;
+            System.out.print(pos + "--> ");
+            System.out.println(temperatura + "ºC");
+            pos = pos + 3;
         }
     }
     
